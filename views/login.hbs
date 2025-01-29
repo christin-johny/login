@@ -1,0 +1,34 @@
+
+
+<div class="container-fluid vh-100 d-flex justify-content-center align-items-center body_bg">
+        <form class="p-4 rounded shadow form_login" action="/verify" method="post" >
+            <h4 class="text-center mb-4">Login</h4>
+            <h4 class="text-danger">{{msg}}</h4>
+            <!-- Username Field -->
+            <div class="form-group mb-3">
+                <input 
+                    type="text" 
+                    class="form-control shadow" 
+                    name="userName" 
+                    placeholder="Username" 
+                    required>
+            </div>
+            <!-- Password Field -->
+            <div class="form-group mb-3">
+                <input 
+                    type="password" 
+                    class="form-control shadow" 
+                    name="password" 
+                    placeholder="Password" 
+                    required>
+                    <a href="#" class="text-decoration-none">Forgot Password?</a>
+            </div>
+           
+            <!-- Buttons -->
+            <div class="d-grid gap-2 ">
+                <button type="submit" class="btn btn-primary shadow body_bg">Login</button>
+            </div>
+        </form>
+    </div>
+
+

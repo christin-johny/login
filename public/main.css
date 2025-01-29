@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.body_bg{
+    background-image: linear-gradient(to right, rgb(46, 230, 205), rgb(7, 36, 201),rgb(46, 230, 205));
+
+}
+
+.form_login{
+    background-color: aquamarine;
+    width:100%;
+    max-width: 400px;
+}
